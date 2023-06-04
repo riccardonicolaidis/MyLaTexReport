@@ -25,7 +25,7 @@ LatexDocument = LatexDocumentClass()
 LatexDocument.SetNameOfTheDocument("ExampleDocument")
 LatexDocument.SetTitle("Example Document: How to use the LatexDocumentClass")
 LatexDocument.SetAuthor("Riccardo Nicolaidis")
-LatexDocument.SetEmail("riccardo.nicolaidis@unitn.it")
+LatexDocument.SetEmail("mail@mail.mail")
 LatexDocument.SetOutputDirectory("./OutputDirectory/")
 
 # Body of the document
@@ -43,11 +43,11 @@ You only need to do the following steps:
 '''
 
 LatexDocument.BeginItemize()
-LatexDocument.Item("Import the \texttt{LatexDocumentClass} class from the \texttt{LatexDocumentClass.py} file")
-LatexDocument.Item("Instantiate the class")
-LatexDocument.Item("Set name, author, title, email, output directory")
-LatexDocument.Item("Build the body of the document by adding the desired content")
-LatexDocument.Item("Compile the document")
+LatexDocument.Item(r"Import the \texttt{LatexDocumentClass} class from the \texttt{LatexDocumentClass.py} file")
+LatexDocument.Item(r"Instantiate the class")
+LatexDocument.Item(r"Set name, author, title, email, output directory")
+LatexDocument.Item(r"Build the body of the document by adding the desired content")
+LatexDocument.Item(r"Compile the document")
 LatexDocument.EndItemize()
 LatexDocument.EndSlide()
 
